@@ -16,6 +16,18 @@ public abstract class Date {
     HotelStragety hotelStragety;
     MovieStragety movieStragety;
 
+    public void setDinnerStragety(DinnerStragety dinnerStragety) {
+        this.dinnerStragety = dinnerStragety;
+    }
+
+    public void setHotelStragety(HotelStragety hotelStragety) {
+        this.hotelStragety = hotelStragety;
+    }
+
+    public void setMovieStragety(MovieStragety movieStragety) {
+        this.movieStragety = movieStragety;
+    }
+
     public void havedinner() {
         dinnerStragety.havedinner();
     }
